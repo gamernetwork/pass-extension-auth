@@ -2,6 +2,8 @@
 
 manage pass access control
 
+Requires a recent version of pass that supports extensions, use 1.7.3 or later. Thia may require using the git repo version instead of your OS pkg as the latter will most likely be out of date.
+
     mkdir ~/.password-store/.extensions
     cp auth.bash ~/.password-store/.extensions
     chmod 755 ~/.password-store/.extensions/auth.bash
